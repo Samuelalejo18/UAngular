@@ -1,8 +1,19 @@
 <main class="main">
+
   <app-nuevo-componente></app-nuevo-componente>
   <app-componente-en-linea></app-componente-en-linea>
 </main>
+<div class="container">
+  <h1 class="text-center" style="color: yellow;">{{ title }}</h1>
+</div>
+<app-usuario />
 
 
 
+<h3 class="text-center"> Uso de varios componentes en angular</h3>
+
+<!-- <p>Componente Padre</p> -->
+<div style="border: 10px solid blue;">
+  <app-padre></app-padre>
+</div>
 <router-outlet />
