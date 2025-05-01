@@ -1,0 +1,15 @@
+<h5 class="text-warning text-center">{{title}}</h5>
+
+<div class="container mt-3">
+    <div class="row justify-content-center">
+        <div class="col-12 mb-3 text-center">
+            <label for="inputTexto" class="mx-2">Mensaje:</label>
+            <input type="text" id="inputTexto" [(ngModel)]="saludo" class="form-control form-control-sm w-25 mx-auto" autocomplete="off" />
+        </div>
+        <div class="col-12 mb-3 text-center">
+            <div class="alert alert-success w-50 mx-auto">
+                {{saludo}}
+            </div>
+        </div>
+    </div>
+</div>

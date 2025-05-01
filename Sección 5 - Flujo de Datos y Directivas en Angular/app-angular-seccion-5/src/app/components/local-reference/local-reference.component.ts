@@ -1,0 +1,16 @@
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-local-reference',
+  imports: [],
+  templateUrl: './local-reference.component.html',
+  styleUrl: './local-reference.component.css'
+})
+export class LocalReferenceComponent {
+  title = "Local Reference en Angular";
+  tarea: string = "";
+
+  agregarTarea(nuevaTarea: string): void {
+    this.tarea = nuevaTarea;
+  }
+}

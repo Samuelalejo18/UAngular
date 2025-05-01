@@ -5,11 +5,11 @@
     <div class="row justify-content-center">
         <div class="col-12 mb-3 d-flex flex-column align-items-center">
             <label for="inputTexto" class="mb-2">Escribe algo: </label>
-            <input id="inputTexto" type="text" class="form-control form-control-sm w-50" (input)="actualizarTexto($event)" />
+            <input id="inputTexto" type="text" class="form-control form-control-sm w-25" (input)="actualizarTexto($event)" />
         </div>
         <div class="col-12 mb-3 d-flex flex-column align-items-center">
             <label for="replicarTexto" class="mb-2">Texto Replicado</label>
-            <input id="replicarTexto" type="text" class="form-control form-control-sm w-50" [value]="mensaje" readonly />
+            <input id="replicarTexto" type="text" class="form-control form-control-sm w-25" [value]="mensaje" readonly />
         </div>
     </div>
 </div>
